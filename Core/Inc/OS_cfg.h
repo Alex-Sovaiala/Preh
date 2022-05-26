@@ -4,7 +4,7 @@
 #include "OS.h"
 
 #define NUMBER_OF_SCHEDULE_POINTS (13)
-#define OS_TIMER_RELOAD_VALUE (1000ul)
+#define OS_TIMER_RELOAD_VALUE (1000000ul)
 
 typedef void (*pfunc_t)(void);
 typedef struct

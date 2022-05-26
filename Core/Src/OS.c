@@ -58,7 +58,7 @@ void OS_Main(void)
       else
       {
         u8TaskToExecute = 0;
-        SysTick->VAL = 0;
+      //  SysTick->VAL = 0;
       }
     }
   }
